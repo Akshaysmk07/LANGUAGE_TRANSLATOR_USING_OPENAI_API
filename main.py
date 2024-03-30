@@ -7,10 +7,14 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.prompts import ChatPromptTemplate
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 # Initialize ChatOpenAI
-openai_api_key = os.environ.get('OPENAI_API_KEY')
+openai_api_key = os.getenv('OPENAI_API_KEY')
 chat = ChatOpenAI(temperature=0.7, openai_api_key=openai_api_key)
 
 #lottie function
