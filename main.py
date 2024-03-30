@@ -2,12 +2,13 @@ import streamlit as st
 import time
 import os
 import requests
-from langchain.chat_models import ChatOpenAI
+
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.prompts import ChatPromptTemplate
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI  # Updated import
 
 # Load environment variables from .env file
 load_dotenv()
