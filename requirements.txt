@@ -1,5 +1,8 @@
 streamlit
 langchain
 langchain-core
+os
+time
 requests
 streamlit-lottie
+python-dotenv
