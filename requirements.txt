@@ -4,5 +4,4 @@ langchain-core
 requests
 streamlit-lottie
 python-dotenv
-openai
--U langchain-openai
+langchain-openai
