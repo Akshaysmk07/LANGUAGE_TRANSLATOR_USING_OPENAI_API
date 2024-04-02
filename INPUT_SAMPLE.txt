@@ -21,3 +21,4 @@ Distribution and Accessibility:
 a. Availability: Translated IFUs must be made readily available to end-users in the target market, either in print or electronic format, to support the safe and effective use of medical devices.
 b. Accessibility: Manufacturers should consider the accessibility needs of diverse user groups, including individuals with visual or cognitive impairments, by providing alternative formats or supplementary materials as necessary.
 
+
